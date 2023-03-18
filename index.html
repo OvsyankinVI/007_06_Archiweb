@@ -1,25 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <link rel="shortcut icon" href="img/icon.svg" type="image/x-icon">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Inter:wght@200;400;700;900&family=Playfair+Display:wght@400;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Archiweb</title>
 </head>
-<body>
-    <header></header>
 
-    <section class="">
+<body>
+
+    <ul id="slide-out" class="sidenav">
+        <li><a href="#part-1" class="sidenav-close">Home</a></li>
+        <li><a href="#services" class="sidenav-close">Services</a></li>
+        <li><a href="#about" class="sidenav-close">About</a></li>
+        <li><a href="#projects" class="sidenav-close">Projects</a></li>
+        <li><a href="#footer" class="sidenav-close">Contacts</a></li>
+        <li><div class="divider"></div></li>
+        <li><a href="#!" class="sidenav-close">Close</a></li>
+    </ul>
+
+    <header id="header">
         <div class="container">
-            
+            <div class="header__flex">
+                <div class="header__logo">
+                    <a href="#header"><h2 class="header__logo-h"><strong>ArchiWeb</strong></h2></a>
+                </div>
+                <div class="header__nav">
+                    <a href="#part-1" class="header__nav-a">Home</a>
+                    <a href="#services" class="header__nav-a">Services</a>
+                    <a href="#about" class="header__nav-a">About</a>
+                    <a href="#projects" class="header__nav-a">Projects</a>
+                    <a href="#footer" class="header__nav-a">Contacts</a>
+                </div>
+                <a class="header__burger sidenav-trigger" data-target="slide-out">
+                    <div class="header__burger-line"></div>
+                    <div class="header__burger-line"></div>
+                    <div class="header__burger-line"></div>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="part-1">
+        <div class="container">
+
         </div>
     </section>
 
-    <footer></footer>
+    <section class="services" id="services">
+        <div class="container">
 
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+
+        </div>
+    </section>
+
+    <section class="testimonial" id="testimonial">
+        <div class="container">
+
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
     <script src="js/main.js"></script>
 </body>
+
 </html>
