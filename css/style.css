@@ -181,3 +181,111 @@ header {
     text-align: center;
     color: #2F2E2E;
 }
+@media screen and (max-width:600px) {
+    .secvices__grig {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+    .services__h {
+        font-size: 40px;
+    }
+}
+/* about us */
+.about__grid {
+    padding-top: 76px;
+    padding-bottom: 95px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    align-items: center;
+    justify-items: center
+}
+.about__grid-img {
+    width: 735px;
+    height: 571px;
+}
+.about__grid-text-h {
+    font-family: 'Playfair Display', serif;
+    font-size: 51px;
+    line-height: 60px;
+    color: #2F2E2E;
+    margin: 0;
+    padding-bottom: 27px;
+}
+.about__grid-text-p {
+    font-family: 'Playfair Display';
+    font-size: 31px;
+    line-height: 36px;
+    color: #2F2E2E;
+}
+@media screen and (max-width: 1270px) {
+    .about__grid-img {
+        width: 515px;
+        height: 400px;
+    }
+}
+@media screen and (max-width: 994px) {
+    .about__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .about__grid-text {
+        text-align: center;
+        align-items: center;
+        grid-row-start: 1;
+    }
+}
+@media screen and (max-width: 754px) {
+    .about__grid-text-h { 
+        font-size: 40px;
+    }
+    .about__grid-text-p {
+    font-size: 25px;
+    }
+    .about__grid-img {
+        width: 368px;
+        height: 286px;
+    }
+    .about__grid {
+    padding-top: 18px;
+    }
+}
+/* projects */
+.projects__h {
+    font-family: 'Playfair Display';
+    font-size: 51px;
+    line-height: 60px;
+    color: #2F2E2E;
+    margin-bottom: 71px;
+    text-align: left;
+}
+.projects__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+.projects__grid-item {
+    margin-bottom: 86px;
+}
+.projects__grid-item img {
+    margin-bottom: 13px;
+    width: 344px;
+    height: 193px;
+    background-repeat: 20px;
+}
+.projects__grid-item-p {
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #2F2E2E;
+}
+@media screen and (max-width: 1100px) {
+    .projects__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 720px) {
+    .projects__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
